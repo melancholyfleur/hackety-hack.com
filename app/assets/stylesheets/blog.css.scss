@@ -1,0 +1,29 @@
+.post.teaser {
+  h2.title {
+    line-height: 1;
+  }
+
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 3em;
+}
+
+.post {
+
+  padding-bottom: 2em;
+
+  .created_at {
+    margin-bottom: 1em;
+    color: #888;
+    font-size: 1.15em;
+    font-style: italic;
+
+  }
+
+  margin-right: 3em;
+  .content {
+    p {
+      font-size: 1.15em;
+      line-height: 1.75em;      
+    }
+  }
+}
