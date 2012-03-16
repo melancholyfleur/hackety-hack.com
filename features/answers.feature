@@ -9,5 +9,10 @@ Feature: CRUD actions for answers
     And an email should be sent to the author
     And I should be able to see my answer
     And my answer should show on my profile page
-  
-  Scenario: Accept an answer
+
+  Scenario: Edit an answer
+    Given a question exists
+    And I answer that question
+    When I edit that answer
+    Then I should see the updated answer
+
